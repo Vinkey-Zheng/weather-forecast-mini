@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/media/media",
+          "pathName": "pages/media/media",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/weather/weather",
+          "pathName": "pages/weather/weather",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

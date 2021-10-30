@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/weather/weather",
+    "pages/media/media"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#987938",
+    "navigationBarTitleText": "校史",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

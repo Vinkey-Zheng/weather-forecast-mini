@@ -1,0 +1,33 @@
+
+<view class ="American" space="space"> {{name}}</view>
+<image class="mao" src=""></image>
+<!-- <image class="mao" mode="heightFix" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2955645470,1731993861&fm=11&gp=0.jpg"></image> -->
+<button  bindtap="beauty">{{nickname}}</button>
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber">getPhoneNumber</button>
+<button open-type=""></button>
+<button open-type=""></button>
+<button open-type=""></button>
+<button open-type=""></button>
+<button open-type=""></button>
+<swiper autoplay circular interval="5000" indicator-dots  >
+  <swiper-item >
+    <image mode="width" style="width:100%" src="//img13.360buyimg.com/pop/s1180x940_jfs/t1/165901/36/15552/98171/60644dabE1b032ef5/93db37aa9b43cf79.jpg.webp"></image>
+  </swiper-item>
+<swiper-item >
+    <image mode="width" style="width:100%" src="//imgcps.jd.com/img-cubic/creative_server_cia/v1/FocusFullshop/CkNqZnMvdDEvMTcxMDUwLzE5LzE0MjgzLzc4NTAyLzYwNThmNzdhRThjNmE5MDk4Lzc4NjMxYTViNTlkZmVjZTcuanBnEgo5OTktdHlfMF8xMAE47ot6/cr/s/q.jpg"></image>
+  </swiper-item>
+  <swiper-item >
+    <image mode="width" style="width:100%" src="//img30.360buyimg.com/pop/s1180x940_jfs/t1/158319/13/15959/74297/6061942aE268e1c3f/619ce717a6062ff9.jpg.webp"></image>
+  </swiper-item>
+ 
+</swiper>
+<view>
+  <view>
+    1
+  </view>
+  <view>
+    2
+  </view>
+</view>

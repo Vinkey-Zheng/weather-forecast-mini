@@ -1,0 +1,16 @@
+<!-- 第一个区域：视频播放器 -->
+<video id="myVideo" controls src="{{src}}"></video>
+<!-- 第二个区域：弹幕区域 -->
+<view class="danmuArea">
+   <input type="text" placeholder=" 请输入弹幕内容" adjust-position="true"></input>
+   <button adjust-position="true">发送弹幕</button>
+</view>
+<!-- 第三个区域：视频列表 -->
+<view class="videolist">
+   <view class="videobar" wx:for='{{list}}'
+   wx:key='video{{item}}' data-url="{{item.videoUrl}}"
+   bindtap="playVideo">
+      <image src="https://img2.baidu.com/it/u=3326436112,2103829373&fm=26&fmt=auto&gp=0.jpg"></image>
+      <text>{{item.title}}</text>
+   </view>
+</view>
